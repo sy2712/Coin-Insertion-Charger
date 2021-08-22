@@ -1,0 +1,32 @@
+Coin Acceptor:
+The coin acceptor device accepts the coin through coin insertion slot. The sensor inside the coin 
+acceptor device will recognize and validate the coin based on the coin diameter. When the inserted
+coin is validated, it sends signal to the Arduino for power supply otherwise the coin will be returned back. 
+
+LCD:
+LCD is Liquid Crystal Display. Initially it will display ‘please insert a coin’. When the coin is validated,
+it displays the timing of charging and when coin is not validated it displays a ‘rejected’ message. LCD is 
+attached to Arduino UNO and gets the status of the systems to display on the screen. 
+
+
+
+Relay:
+Relay is a switch that open and close circuits electromechanically. Relay control one electrical circuit by opening 
+and closing contacts in another circuit. When the relay circuit detects the undesirable condition with an assigned
+area and gives the command to the circuit breaker to disconnect the affected area. Thus protects the system form damage. 
+
+
+
+Arduino UNO:
+Arduino is an open source electronics platform. It is easy to use hardware and software device. Arduino Uno is a
+microcontroller board that contains everything needed to support the microcontroller. Arduino does not need a separate
+piece of hardware in order to load new code onto board, instead it uses a USB cable. Arduino board is able to read inputs-light
+on a sensor, a finger on a button, turning on the LED etc. It has 14 digital input and output pins. 
+
+
+
+SMPS (Switch Mode Power Supply):
+SMPS is an efficient and effective source of power. It is a device in which energy conversion and regulation is provided by 
+power semiconductors that are continuously switching “on” and “off” with high frequency. The switching regulator does the
+regulation in the SMPS. It turns the current supply to a smoothing capacitor on and off. SMPS dissipates very less energy as heat. 
+
