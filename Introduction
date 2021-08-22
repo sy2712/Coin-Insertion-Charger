@@ -1,0 +1,12 @@
+The usage of mobile phones is increasing in many folds. Hence, charging the mobile phones
+has become a greater task these days. Battery power is the main concern when buying new mobile
+phones. The main purpose of mobile charger is to reduce the wastage of electrical power which
+often arises due to negligence of the user. Once the coin is inserted, the coin acceptor detects 
+whether the coin is valid or not. For each unit of price, the power is available only for a limited
+period. The arduino can calculate the time based on the number of coins inserted. That charges your mobile
+for particular amount of time on inserting a coin. The system is to be used by shop owners, Bus stop, public
+places like railway stations to provide mobile charging facility. So, the system consists of a coin recognition
+module that recognizes valid coin. 
+
+
+In Future it can also be modified for charging the EV which are gaining popularity now a days.
