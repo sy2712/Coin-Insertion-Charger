@@ -1,0 +1,15 @@
+The system uses a coin acceptor machine which will detect for a valid coin. 
+The coin acceptor is connected to Arduino board and it then connected to the
+LCD display. If a valid coin found it signals the Arduino and the Arduino will
+send signal to LDC to display the amount of time to be charged. The relay will
+control the power supply to charger, after completion of time duration it will 
+stop supplying power. The SMPS (Switch Mode Power Supply) in the charger used for
+managing energy conversion. The LCD screen will show how much time left for the 
+charging if the user wants to increase the duration of charging he needs to add 
+another coin then the microcontroller adds the time in currently remaining time.
+
+MODULES:
+	• Input stage-To recognize and accept the valid coins
+	• Controller-To control the voltage supplied 
+	• Power-To supply the power based on the requirements
+	• Output stage-To display the output information on screen
